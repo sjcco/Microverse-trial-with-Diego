@@ -1,6 +1,25 @@
-#navbar{
-  display: block;
+#navbar {
   position: fixed;
-  float: left;
-  width: auto;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+      border-right-color: currentcolor;
+  border-color: rgba(0, 22, 22, 0.4);
 }
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+/* Smartphones (portrait & landscape) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
